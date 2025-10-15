@@ -1,0 +1,5 @@
+source ./shell
+source ./aliases
+source ./prompt
+source ./plugin
+source ./init

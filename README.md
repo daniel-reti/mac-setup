@@ -1,1 +1,1 @@
-TBA
+MacOS configurations for development

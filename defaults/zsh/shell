@@ -1,0 +1,11 @@
+export ZSH="$HOME/.oh-my-zsh"
+source $ZSH/oh-my-zsh.sh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# User VSCode as default editor for this shell
+export EDITOR="code -w"
+
+# for setting history length see HISTSIZE and HISTFILESIZE in zsh(1)
+export HISTSIZE=50000
+export HISTFILESIZE=2000

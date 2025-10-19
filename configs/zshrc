@@ -1,0 +1,5 @@
+source ../defaults/zsh/rc
+
+# Editor used by CLI
+export EDITOR="code -w"
+export SUDO_EDITOR="$EDITOR"

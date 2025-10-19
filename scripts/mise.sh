@@ -44,11 +44,8 @@ if [ -f "$HOME/.mise.toml" ]; then
   # Print versions of installed tools
   step "Installed versions:"
   echo "----------------------------------------"
-  mise exec rust -- rustc --version
-  mise exec ruby -- ruby --version
   mise exec go -- go version
   mise exec node -- node --version
-  mise exec python -- python --version
   echo "----------------------------------------"
 
   print_success "All development tools installed successfully!"

@@ -14,7 +14,7 @@ command -v unzip >/dev/null 2>&1 || {
 }
 
 # Set install directory
-INSTALL_DIR="$HOME/mac-setup"
+INSTALL_DIR="$HOME/.local/share/mac-setup"
 TEMP_ZIP="/tmp/mac-setup.zip"
 
 # Remove existing zip if present

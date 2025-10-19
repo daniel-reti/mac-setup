@@ -1,5 +1,6 @@
 [tools]
 # Latest versions of each tool
+bun = 'latest'
 go = 'latest'
 node = 'lts'
 

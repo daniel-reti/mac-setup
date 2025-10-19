@@ -6,7 +6,7 @@
 
 # Exit handler - runs if script fails
 trap 'if [ $? -ne 0 ]; then
-  echo -e "\n   ❌ Omakos setup failed"
+  echo -e "\n   ❌ Mac setup failed"
   exit $?
 fi' EXIT
 

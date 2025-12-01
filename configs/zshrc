@@ -1,4 +1,4 @@
-source ../defaults/zsh/rc
+source ./defaults/zsh/rc
 
 # Editor used by CLI
 export EDITOR="code -w"
